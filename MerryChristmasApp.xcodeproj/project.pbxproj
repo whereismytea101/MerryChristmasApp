@@ -11,6 +11,12 @@
 		9B961B4E295F5D1A00BB00F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B961B4D295F5D1A00BB00F0 /* ContentView.swift */; };
 		9B961B50295F5D1F00BB00F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B961B4F295F5D1F00BB00F0 /* Assets.xcassets */; };
 		9B961B53295F5D1F00BB00F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B961B52295F5D1F00BB00F0 /* Preview Assets.xcassets */; };
+		9B961B5A295F5DED00BB00F0 /* ThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B961B59295F5DED00BB00F0 /* ThreeView.swift */; };
+		9B961B5C295F5ECE00BB00F0 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B961B5B295F5ECE00BB00F0 /* Triangle.swift */; };
+		9B961B5E295F5EDF00BB00F0 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B961B5D295F5EDF00BB00F0 /* Star.swift */; };
+		9B961B61295F897A00BB00F0 /* ToysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B961B60295F897A00BB00F0 /* ToysView.swift */; };
+		9B961B65295F9A2200BB00F0 /* SnowParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B961B64295F9A2100BB00F0 /* SnowParticles.swift */; };
+		9B961B69295F9F7800BB00F0 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B961B68295F9F7800BB00F0 /* AnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		9B961B4D295F5D1A00BB00F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B961B4F295F5D1F00BB00F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B961B52295F5D1F00BB00F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B961B59295F5DED00BB00F0 /* ThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeView.swift; sourceTree = "<group>"; };
+		9B961B5B295F5ECE00BB00F0 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		9B961B5D295F5EDF00BB00F0 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		9B961B60295F897A00BB00F0 /* ToysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysView.swift; sourceTree = "<group>"; };
+		9B961B64295F9A2100BB00F0 /* SnowParticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowParticles.swift; sourceTree = "<group>"; };
+		9B961B68295F9F7800BB00F0 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,11 @@
 			children = (
 				9B961B4B295F5D1A00BB00F0 /* MerryChristmasAppApp.swift */,
 				9B961B4D295F5D1A00BB00F0 /* ContentView.swift */,
+				9B961B59295F5DED00BB00F0 /* ThreeView.swift */,
+				9B961B60295F897A00BB00F0 /* ToysView.swift */,
+				9B961B64295F9A2100BB00F0 /* SnowParticles.swift */,
+				9B961B68295F9F7800BB00F0 /* AnimationView.swift */,
+				9B961B5F295F5EF000BB00F0 /* Shapes */,
 				9B961B4F295F5D1F00BB00F0 /* Assets.xcassets */,
 				9B961B51295F5D1F00BB00F0 /* Preview Content */,
 			);
@@ -65,6 +82,15 @@
 				9B961B52295F5D1F00BB00F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B961B5F295F5EF000BB00F0 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				9B961B5B295F5ECE00BB00F0 /* Triangle.swift */,
+				9B961B5D295F5EDF00BB00F0 /* Star.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B961B5A295F5DED00BB00F0 /* ThreeView.swift in Sources */,
+				9B961B69295F9F7800BB00F0 /* AnimationView.swift in Sources */,
+				9B961B65295F9A2200BB00F0 /* SnowParticles.swift in Sources */,
 				9B961B4E295F5D1A00BB00F0 /* ContentView.swift in Sources */,
 				9B961B4C295F5D1A00BB00F0 /* MerryChristmasAppApp.swift in Sources */,
+				9B961B5E295F5EDF00BB00F0 /* Star.swift in Sources */,
+				9B961B5C295F5ECE00BB00F0 /* Triangle.swift in Sources */,
+				9B961B61295F897A00BB00F0 /* ToysView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
