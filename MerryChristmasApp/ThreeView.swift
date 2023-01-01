@@ -16,11 +16,9 @@ struct ThreeView: View {
                     .ignoresSafeArea()
                 SnowParticlesCles()
                 VStack(spacing: -50) {
-                    
                     Triangle()
                         .fill(.green)
                         .frame(width: 100, height: 100)
-                    
                     Triangle()
                         .fill(.green)
                         .frame(width: 150, height: 120)
@@ -40,6 +38,14 @@ struct ThreeView: View {
                         .frame(width: 30, height: 30)
                         .position(x: 196, y: 580)
                         .rotationEffect(Angle(degrees: 180))
+                    VStack {
+                        Text("Merry Christmass 🎅🏻")
+                            .position(x: 196, y: 80)
+                            .font(.system(size: 40))
+                        Text("Ya filthy animal 🔫")
+                            .font(.system(size: 40))
+                        
+                    }
                     ToysView()
                 }
                 Rectangle()

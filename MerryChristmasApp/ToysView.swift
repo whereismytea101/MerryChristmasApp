@@ -53,7 +53,7 @@ struct ToysView: View {
             
             Circle()
                 .fill(.red)
-                .position(x: 74, y: 140)
+                .position(x: 110, y: 140)
                 .frame(width: 60, height: 40)
             
             Circle()
