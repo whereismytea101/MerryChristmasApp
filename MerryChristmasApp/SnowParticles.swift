@@ -17,7 +17,12 @@ struct SnowParticles: View {
 
 struct CartRacingView_Previews: PreviewProvider {
     static var previews: some View {
-        SnowParticles()
+        ZStack {
+            AnimationView()
+                .ignoresSafeArea()
+            SnowParticles()
+            
+        }
     }
 }
 
@@ -35,7 +40,10 @@ struct SnowParticlesCles: UIViewRepresentable {
         host.layer.addSublayer(particlesLayer)
         host.layer.masksToBounds = true
 
-        particlesLayer.backgroundColor = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
+        particlesLayer.backgroundColor = UIColor(red: 255.0/255.0,
+                                                 green: 255.0/255.0,
+                                                 blue: 255.0/255.0,
+                                                 alpha: 1.0).cgColor
         
         particlesLayer.emitterShape = .circle
         
@@ -58,7 +66,10 @@ struct SnowParticlesCles: UIViewRepresentable {
         snowParticles.spinRange = 57.2 * (.pi / 180.0)
         snowParticles.scale = 0.002
         snowParticles.scaleRange = 0.05
-        snowParticles.color = UIColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1.0).cgColor
+//        snowParticles.color = UIColor(red: 0.0/255.0,
+//                                      green: 0.0/255.0,
+//                                      blue: 0.0/255.0,
+//                                      alpha: 1.0).cgColor
         particlesLayer.emitterCells = [snowParticles]
         return host
     }
